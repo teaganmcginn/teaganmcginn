@@ -791,6 +791,14 @@ h2 .serif{font-size:1.22em;vertical-align:-.04em}
 .hello{font-size:clamp(52px,5.8vw,84px)!important;line-height:1.1!important;margin:0 0 -.12em -.04em!important;padding:0 .12em .1em 0!important}
 h2 .serif{font-size:1.3em!important;vertical-align:-.06em;padding-right:.1em}
 .about-copy .big .serif{font-size:1.55em!important;vertical-align:-.1em;padding-right:.08em}
+
+/* iOS Safari: keep video clipped inside the phone frame */
+.phone{transform-style:flat!important}
+.phone .screen,.clip{isolation:isolate;-webkit-mask-image:-webkit-radial-gradient(white,black);mask-image:radial-gradient(white,black);transform:translateZ(0)}
+.phone video,.clip video{display:block;-webkit-transform:translateZ(0);transform:translateZ(0)}
+video.crop-bottom{height:100%!important;object-position:50% 0!important;transform:scale(1.03) translateY(-1.2%)!important;transform-origin:50% 0}
+.case-media figure{display:grid;gap:10px}
+.case-media figcaption{margin-top:0!important;position:relative;z-index:1}
 </style>
 
 <style id="maroon">
@@ -847,7 +855,7 @@ h2 .serif{font-size:1.3em!important;vertical-align:-.06em;padding-right:.1em}
     </div>
   </div>
 </header>
-<div class="ticker" aria-label="Highlights"><div class="ticker-track"><div class="ticker-group"><span class="tk"><svg aria-hidden="true"><use href="#star"/></svg><b>860K+</b> combined views</span><span class="tk"><svg aria-hidden="true"><use href="#star"/></svg><b>174K+</b> views on a single reel</span><span class="tk"><svg aria-hidden="true"><use href="#star"/></svg><span class="up">▲ 2,604%</span> non-follower viewership</span><span class="tk"><svg aria-hidden="true"><use href="#star"/></svg><b>10x</b> monthly views</span><span class="tk"><svg aria-hidden="true"><use href="#star"/></svg><span class="up">▲ 700%+</span> reach growth</span><span class="tk"><svg aria-hidden="true"><use href="#star"/></svg><b>46K</b> accounts reached by one reel</span><span class="tk"><svg aria-hidden="true"><use href="#star"/></svg><b>4K+</b> saves</span><span class="tk"><svg aria-hidden="true"><use href="#star"/></svg><b>1.9K+</b> shares</span><span class="tk"><svg aria-hidden="true"><use href="#star"/></svg><b>260%</b> of a campaign follower goal</span><span class="tk"><svg aria-hidden="true"><use href="#star"/></svg><b>1.2K</b> saves on one post</span></div><div class="ticker-group" aria-hidden="true"><span class="tk"><svg aria-hidden="true"><use href="#star"/></svg><b>860K+</b> combined views</span><span class="tk"><svg aria-hidden="true"><use href="#star"/></svg><b>174K+</b> views on a single reel</span><span class="tk"><svg aria-hidden="true"><use href="#star"/></svg><span class="up">▲ 2,604%</span> non-follower viewership</span><span class="tk"><svg aria-hidden="true"><use href="#star"/></svg><b>10x</b> monthly views</span><span class="tk"><svg aria-hidden="true"><use href="#star"/></svg><span class="up">▲ 700%+</span> reach growth</span><span class="tk"><svg aria-hidden="true"><use href="#star"/></svg><b>46K</b> accounts reached by one reel</span><span class="tk"><svg aria-hidden="true"><use href="#star"/></svg><b>4K+</b> saves</span><span class="tk"><svg aria-hidden="true"><use href="#star"/></svg><b>1.9K+</b> shares</span><span class="tk"><svg aria-hidden="true"><use href="#star"/></svg><b>260%</b> of a campaign follower goal</span><span class="tk"><svg aria-hidden="true"><use href="#star"/></svg><b>1.2K</b> saves on one post</span></div></div></div>
+<div class="ticker" aria-label="Highlights"><div class="ticker-track"><div class="ticker-group"><span class="tk"><svg aria-hidden="true"><use href="#star"/></svg><b>1M+</b> combined views</span><span class="tk"><svg aria-hidden="true"><use href="#star"/></svg><b>174K+</b> views on a single reel</span><span class="tk"><svg aria-hidden="true"><use href="#star"/></svg><span class="up">▲ 2,604%</span> non-follower viewership</span><span class="tk"><svg aria-hidden="true"><use href="#star"/></svg><b>10x</b> monthly views</span><span class="tk"><svg aria-hidden="true"><use href="#star"/></svg><span class="up">▲ 700%+</span> reach growth</span><span class="tk"><svg aria-hidden="true"><use href="#star"/></svg><b>46K</b> accounts reached by one reel</span><span class="tk"><svg aria-hidden="true"><use href="#star"/></svg><b>4K+</b> saves</span><span class="tk"><svg aria-hidden="true"><use href="#star"/></svg><b>1.9K+</b> shares</span><span class="tk"><svg aria-hidden="true"><use href="#star"/></svg><b>260%</b> of a campaign follower goal</span><span class="tk"><svg aria-hidden="true"><use href="#star"/></svg><b>1.2K</b> saves on one post</span></div><div class="ticker-group" aria-hidden="true"><span class="tk"><svg aria-hidden="true"><use href="#star"/></svg><b>1M+</b> combined views</span><span class="tk"><svg aria-hidden="true"><use href="#star"/></svg><b>174K+</b> views on a single reel</span><span class="tk"><svg aria-hidden="true"><use href="#star"/></svg><span class="up">▲ 2,604%</span> non-follower viewership</span><span class="tk"><svg aria-hidden="true"><use href="#star"/></svg><b>10x</b> monthly views</span><span class="tk"><svg aria-hidden="true"><use href="#star"/></svg><span class="up">▲ 700%+</span> reach growth</span><span class="tk"><svg aria-hidden="true"><use href="#star"/></svg><b>46K</b> accounts reached by one reel</span><span class="tk"><svg aria-hidden="true"><use href="#star"/></svg><b>4K+</b> saves</span><span class="tk"><svg aria-hidden="true"><use href="#star"/></svg><b>1.9K+</b> shares</span><span class="tk"><svg aria-hidden="true"><use href="#star"/></svg><b>260%</b> of a campaign follower goal</span><span class="tk"><svg aria-hidden="true"><use href="#star"/></svg><b>1.2K</b> saves on one post</span></div></div></div>
 
 <main>
 <section id="results" style="padding-top:clamp(40px,6vw,80px)">
@@ -860,7 +868,7 @@ h2 .serif{font-size:1.3em!important;vertical-align:-.06em;padding-right:.1em}
     <div class="dash">
       <article class="glass m-hero reveal">
         <div class="m-top"><span class="m-label">Combined views</span><span class="live"><span class="dot"></span>@ustrichology</span></div>
-        <div class="m-big num" data-count="860" data-suffix="K<small>+</small>">860K<small>+</small></div>
+        <div class="m-big num" data-count="1" data-suffix="M<small>+</small>">1M<small>+</small></div>
         <div class="m-sub">Across reels, carousels and educational content</div>
         <div class="m-mini">
           <div><span>Saves</span><b class="num">4K+</b></div>
@@ -902,7 +910,7 @@ h2 .serif{font-size:1.3em!important;vertical-align:-.06em;padding-right:.1em}
     </div>
     <div class="reels">
       <article class="reel reveal">
-        <div class="phone"><div class="screen"><video muted autoplay playsinline loop preload="auto" poster="reel-ranks.jpg" src="reel-ranks.mp4" aria-label="Reel: a trichologist ranks hair regrowth methods"></video><button class="snd" aria-pressed="false" aria-label="Turn sound on"><svg class="off"><use href="#vol-off"/></svg><svg class="on"><use href="#vol-on"/></svg></button></div></div>
+        <div class="phone"><div class="screen"><video muted playsinline loop preload="metadata" poster="reel-ranks.jpg" src="reel-ranks.mp4" aria-label="Reel: a trichologist ranks hair regrowth methods"></video><button class="snd" aria-pressed="false" aria-label="Turn sound on"><svg class="off"><use href="#vol-off"/></svg><svg class="on"><use href="#vol-on"/></svg></button></div></div>
         <div class="reel-meta">
           <span class="reel-no">Reel 1 · Authority</span>
           <div class="views num">174K+<span>views</span></div>
@@ -911,7 +919,7 @@ h2 .serif{font-size:1.3em!important;vertical-align:-.06em;padding-right:.1em}
         </div>
       </article>
       <article class="reel reveal">
-        <div class="phone"><div class="screen"><video muted autoplay playsinline loop preload="auto" poster="reel-dht.jpg" src="reel-dht.mp4" aria-label="Reel: hair loss treatments tier list"></video><button class="snd" aria-pressed="false" aria-label="Turn sound on"><svg class="off"><use href="#vol-off"/></svg><svg class="on"><use href="#vol-on"/></svg></button></div></div>
+        <div class="phone"><div class="screen"><video muted playsinline loop preload="metadata" poster="reel-dht.jpg" src="reel-dht.mp4" aria-label="Reel: hair loss treatments tier list"></video><button class="snd" aria-pressed="false" aria-label="Turn sound on"><svg class="off"><use href="#vol-off"/></svg><svg class="on"><use href="#vol-on"/></svg></button></div></div>
         <div class="reel-meta">
           <span class="reel-no">Reel 2 · Engagement</span>
           <div class="views num">123K+<span>views</span></div>
@@ -920,7 +928,7 @@ h2 .serif{font-size:1.3em!important;vertical-align:-.06em;padding-right:.1em}
         </div>
       </article>
       <article class="reel reveal">
-        <div class="phone"><div class="screen"><video muted autoplay playsinline loop preload="auto" poster="reel-netflix.jpg" src="reel-netflix.mp4" aria-label="Reel: preparing for a trichology documentary"></video><button class="snd" aria-pressed="false" aria-label="Turn sound on"><svg class="off"><use href="#vol-off"/></svg><svg class="on"><use href="#vol-on"/></svg></button></div></div>
+        <div class="phone"><div class="screen"><video muted playsinline loop preload="metadata" poster="reel-netflix.jpg" src="reel-netflix.mp4" aria-label="Reel: preparing for a trichology documentary"></video><button class="snd" aria-pressed="false" aria-label="Turn sound on"><svg class="off"><use href="#vol-off"/></svg><svg class="on"><use href="#vol-on"/></svg></button></div></div>
         <div class="reel-meta">
           <span class="reel-no">Reel 3 · Trend</span>
           <div class="views num">18K+<span>views</span></div>
@@ -929,7 +937,7 @@ h2 .serif{font-size:1.3em!important;vertical-align:-.06em;padding-right:.1em}
         </div>
       </article>
       <article class="reel reveal">
-        <div class="phone"><div class="screen"><video muted autoplay playsinline loop preload="auto" poster="reel-office.jpg" src="reel-office.mp4" aria-label="Reel: office skit with the USTI team"></video><button class="snd" aria-pressed="false" aria-label="Turn sound on"><svg class="off"><use href="#vol-off"/></svg><svg class="on"><use href="#vol-on"/></svg></button></div></div>
+        <div class="phone"><div class="screen"><video muted playsinline loop preload="metadata" poster="reel-office.jpg" src="reel-office.mp4" aria-label="Reel: office skit with the USTI team"></video><button class="snd" aria-pressed="false" aria-label="Turn sound on"><svg class="off"><use href="#vol-off"/></svg><svg class="on"><use href="#vol-on"/></svg></button></div></div>
         <div class="reel-meta">
           <span class="reel-no">Reel 4 · Community</span>
           <div class="views num">14K+<span>views</span></div>
@@ -951,11 +959,11 @@ h2 .serif{font-size:1.3em!important;vertical-align:-.06em;padding-right:.1em}
       <div class="case-left">
       <div class="case-media reveal">
         <figure style="margin:0">
-          <div class="phone"><div class="screen"><video muted autoplay playsinline loop preload="auto" poster="reel-latte.jpg" src="reel-latte.mp4" class="crop-bottom" aria-label="Reel: the Regina George iced latte"></video><button class="snd" aria-pressed="false" aria-label="Turn sound on"><svg class="off"><use href="#vol-off"/></svg><svg class="on"><use href="#vol-on"/></svg></button></div></div>
+          <div class="phone"><div class="screen"><video muted playsinline loop preload="metadata" poster="reel-latte.jpg" src="reel-latte.mp4" class="crop-bottom" aria-label="Reel: the Regina George iced latte"></video><button class="snd" aria-pressed="false" aria-label="Turn sound on"><svg class="off"><use href="#vol-off"/></svg><svg class="on"><use href="#vol-on"/></svg></button></div></div>
           <figcaption>On-screen talent and real-time content ideation</figcaption>
         </figure>
         <figure style="margin:0">
-          <div class="phone"><div class="screen"><video muted autoplay playsinline loop preload="auto" poster="reel-talent.jpg" src="reel-talent.mp4" aria-label="Reel: on-screen talent concept"></video><button class="snd" aria-pressed="false" aria-label="Turn sound on"><svg class="off"><use href="#vol-off"/></svg><svg class="on"><use href="#vol-on"/></svg></button></div></div>
+          <div class="phone"><div class="screen"><video muted playsinline loop preload="metadata" poster="reel-talent.jpg" src="reel-talent.mp4" aria-label="Reel: on-screen talent concept"></video><button class="snd" aria-pressed="false" aria-label="Turn sound on"><svg class="off"><use href="#vol-off"/></svg><svg class="on"><use href="#vol-on"/></svg></button></div></div>
           <figcaption>On-screen talent and Instagram Reel concept</figcaption>
         </figure>
         <figure style="margin:0">
@@ -1019,10 +1027,10 @@ h2 .serif{font-size:1.3em!important;vertical-align:-.06em;padding-right:.1em}
       <p class="lede">Clips I filmed at USTI events for reels, stories and recaps.</p>
     </div>
     <div class="clips">
-      <figure class="clip reveal"><video muted autoplay playsinline loop preload="auto" poster="cap-instructor.jpg" src="cap-instructor.mp4" aria-label="Clip of an instructor speaking at a USTI event"></video></figure>
-      <figure class="clip reveal"><video muted autoplay playsinline loop preload="auto" poster="cap-attendees.jpg" src="cap-attendees.mp4" aria-label="Clip of attendees laughing at a USTI event"></video></figure>
-      <figure class="clip reveal"><video muted autoplay playsinline loop preload="auto" poster="cap-camera.jpg" src="cap-camera.mp4" aria-label="Clip of a phone filming a speaker at a USTI podium"></video></figure>
-    <figure class="clip reveal"><video muted autoplay playsinline loop preload="auto" poster="cap-four.jpg" src="cap-four.mp4" aria-label="Clip captured at a USTI event"></video></figure>
+      <figure class="clip reveal"><video muted playsinline loop preload="metadata" poster="cap-instructor.jpg" src="cap-instructor.mp4" aria-label="Clip of an instructor speaking at a USTI event"></video></figure>
+      <figure class="clip reveal"><video muted playsinline loop preload="metadata" poster="cap-attendees.jpg" src="cap-attendees.mp4" aria-label="Clip of attendees laughing at a USTI event"></video></figure>
+      <figure class="clip reveal"><video muted playsinline loop preload="metadata" poster="cap-camera.jpg" src="cap-camera.mp4" aria-label="Clip of a phone filming a speaker at a USTI podium"></video></figure>
+    <figure class="clip reveal"><video muted playsinline loop preload="metadata" poster="cap-four.jpg" src="cap-four.mp4" aria-label="Clip captured at a USTI event"></video></figure>
     </div>
   </div>
 </section>
@@ -1163,7 +1171,7 @@ h2 .serif{font-size:1.3em!important;vertical-align:-.06em;padding-right:.1em}
 (function(){
   var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  /* Videos: load early, play while on screen, retry if the browser blocks autoplay */
+  /* Videos: buffer ahead of the reader, play only what is on screen, recover from stalls */
   var vids = [].slice.call(document.querySelectorAll('.phone video, .clip video'));
   function muteAll(except){
     vids.forEach(function(v){ if(v!==except){ v.muted = true; var b=v.parentNode.querySelector('.snd'); if(b){b.setAttribute('aria-pressed','false'); b.setAttribute('aria-label','Turn sound on');} } });
@@ -1176,32 +1184,42 @@ h2 .serif{font-size:1.3em!important;vertical-align:-.06em;padding-right:.1em}
     p.addEventListener('click',function(e){ e.stopPropagation(); tryPlay(v,true); });
     v.parentNode.appendChild(p); v._pb=p; return p;
   }
+  function warm(v){ if(!v._warm){ v._warm=true; v.preload='auto'; if(v.readyState===0){ try{ v.load(); }catch(e){} } } }
   function tryPlay(v,user){
-    v.muted = v.muted!==false ? true : v.muted; v.setAttribute('playsinline',''); v.setAttribute('webkit-playsinline','');
-    if(v.preload!=='auto') v.preload='auto';
+    warm(v);
     var pr=v.play();
     if(pr && pr.then){ pr.then(function(){ if(v._pb) v._pb.hidden=true; }).catch(function(){
-      if(!user){ v.addEventListener('canplay',function once(){ v.removeEventListener('canplay',once); if(visible.has(v)) v.play().then(function(){ if(v._pb) v._pb.hidden=true; }).catch(function(){ addPlayBtn(v).hidden=false; }); }); }
-      else { addPlayBtn(v).hidden=false; }
+      if(user){ addPlayBtn(v).hidden=false; return; }
+      v.addEventListener('canplay',function once(){ v.removeEventListener('canplay',once); if(visible.has(v)) v.play().then(function(){ if(v._pb) v._pb.hidden=true; }).catch(function(){ addPlayBtn(v).hidden=false; }); });
     }); }
   }
-  vids.forEach(function(v){ v.muted=true; v.defaultMuted=true; v.setAttribute('muted',''); v.preload='auto'; try{ v.load(); }catch(e){} });
+  vids.forEach(function(v){
+    v.muted=true; v.defaultMuted=true; v.setAttribute('muted',''); v.setAttribute('playsinline',''); v.setAttribute('webkit-playsinline','');
+    v.removeAttribute('autoplay'); v.preload='metadata';
+    /* recover if the network stalls or the decoder drops the video */
+    var kick=function(){ clearTimeout(v._kt); v._kt=setTimeout(function(){ if(visible.has(v) && (v.paused || v.readyState<3)){ var t=v.currentTime; if(v.readyState<2){ try{ v.load(); v.currentTime=t; }catch(e){} } tryPlay(v,false); } },1800); };
+    v.addEventListener('stalled',kick); v.addEventListener('waiting',kick);
+    v.addEventListener('error',function(){ if(v._retried) return; v._retried=true; var src=v.getAttribute('src'); v.setAttribute('src',src.split('?')[0]+'?r='+Date.now()); v.load(); if(visible.has(v)) tryPlay(v,false); });
+    v.addEventListener('playing',function(){ if(v._pb) v._pb.hidden=true; });
+  });
   if (reduce) {
-    vids.forEach(function(v){ addPlayBtn(v).hidden=false; });
+    vids.forEach(function(v){ warm(v); addPlayBtn(v).hidden=false; });
   } else if ('IntersectionObserver' in window) {
-    var near = new IntersectionObserver(function(es){ es.forEach(function(e){ if(e.isIntersecting){ e.target.preload='auto'; near.unobserve(e.target); } }); },{rootMargin:'800px 0px'});
+    /* start downloading roughly two screens before a video arrives */
+    var near = new IntersectionObserver(function(es){ es.forEach(function(e){ if(e.isIntersecting){ warm(e.target); near.unobserve(e.target); } }); },{rootMargin:'1600px 0px 1600px 0px'});
     var io = new IntersectionObserver(function(es){
       es.forEach(function(e){
         var v=e.target;
-        if(e.isIntersecting && e.intersectionRatio>=0.3){ visible.add(v); tryPlay(v,false); }
-        else { visible.delete(v); v.pause(); }
+        if(e.isIntersecting && e.intersectionRatio>=0.25){ visible.add(v); tryPlay(v,false); }
+        else { visible.delete(v); if(!v.paused) v.pause(); }
       });
-    },{threshold:[0,0.3,0.6]});
+    },{threshold:[0,0.25,0.6]});
     vids.forEach(function(v){ near.observe(v); io.observe(v); });
-    /* Some browsers only allow playback after the first interaction: retry visible videos then */
-    ['pointerdown','touchstart','keydown','wheel'].forEach(function(ev){
-      window.addEventListener(ev,function(){ visible.forEach(function(v){ if(v.paused) tryPlay(v,true); }); },{passive:true});
-    });
+    var resume=function(){ visible.forEach(function(v){ if(v.paused) tryPlay(v,true); }); };
+    ['pointerdown','touchstart','keydown','wheel'].forEach(function(ev){ window.addEventListener(ev,resume,{passive:true}); });
+    /* coming back to the tab or the page (including iOS back/forward) restarts what is on screen */
+    document.addEventListener('visibilitychange',function(){ if(!document.hidden) visible.forEach(function(v){ tryPlay(v,false); }); });
+    window.addEventListener('pageshow',function(){ visible.forEach(function(v){ tryPlay(v,false); }); });
   } else {
     vids.forEach(function(v){ tryPlay(v,false); });
   }
